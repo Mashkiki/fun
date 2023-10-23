@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(222, 222, 222);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box {
+    width: 75%;
+    height: 150px;
+    border-radius: 12px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+}
+
+.bar {
+    height: 50px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 6px;
+}
+#progback {
+    width: 85%;
+    margin: auto;
+    align-self: center;
+}
+#progfront {
+    transition: 0.25s width ease; 
+    width: 0%;
+    background-color: #2ecc71;
+    text-align: center;
+    color: white;
+}
